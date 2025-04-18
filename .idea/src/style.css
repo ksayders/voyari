@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #433D3D;
+}
+
+.container {
+    width: 1920px;
+    height: 876px;
+    background-color: green;
+    background-image: url("img/background_header.svg");
+    background-repeat: no-repeat;
+    background-position: center; /* Центрируем изображение */
+    background-size: cover; /* Основное свойство для растяжения */
+    margin: 0 auto;
+}
+
+.heading {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #ED7777;
+    margin-bottom: 0;
+}
+
+.heading-h2 {
+    margin-top: 10px;
+}
+
+.logo {
+    margin: 10px 0;
+}
+
+.help {
+    background-color: #ED7777;
+    border-radius: 50px;
+    border: none
+}
+.up-content {
+    max-width: 1260px;
+    height: 119px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.text-content {
+    text-align: center;
+}
+
+.link-content {
+    display: flex;
+    max-width: 1260px;
+    height: 48px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #433D3D;
+    font-size: 20px;
+}
+
+.link {
+    color: #433D3D;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #A92121;
+    text-decoration: underline;
+}
+
+.button-content {
+    margin-top: 4px;
+}
+
+.social-media {
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+
+.topic-div {
+    position: absolute;
+    width: 637px;
+    height: 180px;
+    overflow-wrap: break-word;
+    line-height: 30px;
+    top: 304px;
+    left: 1100px;
+}
+
+.topic {
+    font-size: 60px;
+    font-weight: 700;
+    color: #ED7777;
+}
+
+.telephone {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.number {
+    color: #A92121;
+}
+
+.container2 {
+    max-width: 1260px;
+    height: 741px;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.heading2 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.heading2-text {
+    margin-top: 0;
+    color: #A92121;
+}
+
+.up-container {
+    display: flex;
+}
+
+.first-item {
+    display: flex;
+    width: 636px;
+    height: 235px;
+    box-shadow: inset 10em 20em #ED7777;
+    align-items: center;
+    justify-content: start;
+    border: 2px solid #ED7777;
+    border-left: 10px solid #ED7777;
+    border-bottom: 10px solid #ED7777;
+    border-radius: 25px;
+}
+
+.div-clothes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 306px;
+    height: 235px;
+    border-radius: 20px;
+    border-width: 2px;
+    background-color: #FFF;
+}
+
+.number-container-2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #A92121;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.text-container-2 {
+    width: 210px;
+    height: 48px;
+    font-size: 20px;
+    text-align: center;
+    color: #696969;
+}
+
+.text-clothes-container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 41px;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.second-item {
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 306px;
+    height: 235px;
+    border-radius: 20px;
+    border-width: 2px;
+    border: 2px solid #ED7777;
+    border-left: 10px solid #ED7777;
+    border-bottom: 10px solid #ED7777;
+    border-radius: 25px;
+}
+
+.down-items {
+    display: flex;
+}
+
+.third-item {
+    margin-left: 330px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 306px;
+    height: 235px;
+    border-radius: 20px;
+    border-width: 2px;
+    border: 2px solid #ED7777;
+    border-left: 10px solid #ED7777;
+    border-bottom: 10px solid #ED7777;
+    border-radius: 25px;
+}
+
+.fourth-item {
+    margin-left: 354px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 306px;
+    height: 235px;
+    border-radius: 20px;
+    border-width: 2px;
+    border: 2px solid #ED7777;
+    border-left: 10px solid #ED7777;
+    border-bottom: 10px solid #ED7777;
+    border-radius: 25px;
+}
